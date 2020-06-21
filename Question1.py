@@ -20,4 +20,8 @@ We take max out of these possibilties.
 out=[0]*n
 for i in range(n):
     out[i]=max(mu-w[i],mu-w[i]+out[i-1])
+
+'''
+Finally day j might not be in the maximum deficit interval. So we linearly scan the array and take maximum deficit as the answer.
+'''
 print(max(out))

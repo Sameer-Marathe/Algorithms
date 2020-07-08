@@ -16,4 +16,4 @@ Let A be a n×m matrix of positive integers. A has n rows and m columns.You are 
 Follow-up: can you get the indices <img src="https://render.githubusercontent.com/render/math?math=k_1, k_2,\dots ,k_n"> from DP table.
 
 ### Answer
-Naive brute force will take exponential time in worst case. We can do polynomial time using the appproach given in [Question2.py](https://github.com/Sameer-Marathe/DynamicProgramming/blob/master/Question2.py). The time complexity of our approach is <img src="https://render.githubusercontent.com/render/math?math=O(nk%5E 2) ">.
+Naive brute force will take exponential time in worst case. We can do polynomial time using the appproach given in [Question2.py](https://github.com/Sameer-Marathe/DynamicProgramming/blob/master/Question2.py). The time complexity of the approach is <img src="https://render.githubusercontent.com/render/math?math=O(nk%5E 2) ">.

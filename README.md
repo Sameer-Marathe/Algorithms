@@ -7,7 +7,7 @@ Being the chief climatologist of your city, you have been given the rainfall dat
 Follow-up: find the interval which gives the maximum interval using the DP table alone.
 
 ### Answer
-Note that the naive brute force will take <img src="https://render.githubusercontent.com/render/math?math=O(n%5E 3) "> time. After smart ordering the best worst case time bound on brute-force will be <img src="https://render.githubusercontent.com/render/math?math=O(n%5E 2) ">. Can we do better than brute force?. We certainly can using dynamic programming with memoization. The solution is given in [Question1.py](https://github.com/Sameer-Marathe/DynamicProgramming/blob/master/Question1.py).
+Note that the naive brute force will take <img src="https://render.githubusercontent.com/render/math?math=O(n%5E 3) "> time. After smart ordering the worst case time bound on brute-force will be <img src="https://render.githubusercontent.com/render/math?math=O(n%5E 2) ">. Can we do better than brute force?. We certainly can using dynamic programming with memoization. The solution is given in [Question1.py](https://github.com/Sameer-Marathe/DynamicProgramming/blob/master/Question1.py).
 
 ## Question 2
 
